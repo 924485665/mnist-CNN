@@ -104,7 +104,7 @@ from keras.optimizers import RMSprop,Adam
 
 
 
-# #using CNN           test loss:  0.407238004947     test accuracy:  0.9768
+# #using CNN           test loss:  0.407238004947     test accuracy:  0.9768       without best paras
 
 
 X_train = X_train.reshape(-1,1,28,28)/255   #normalization
